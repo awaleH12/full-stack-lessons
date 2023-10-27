@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
+
+/* RESET */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+} 
+/* img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+/* || UTILITY CLASSES */
+
+/* || GENERAL STYLE */
+
+body{
+  font-family:'Nunito Sans', sans-serif;
+  min-height: 100vh;
+  background-color: #475569;
+  background-image: radial-gradient(whitesmoke, steelblue);
+}
+h1{
+  font-size: 3rem;
+  /* height: 200px; */
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #333;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+.sign-up-form{
+  width: 500px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+  background-color: #fff;
+  padding: 20px;
+  margin: 5% auto 5%;
+  text-align: center;
+}
+.sign-up-form h2{
+  color: #1c8adb;
+  margin-bottom: 30px;
+}
+.input-box{
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  border: 1px solid #999;
+  outline: none;
+}
+.top-labels{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 150px;
+  text-align: left;
+}
+.gender{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 150px;
+  text-align: left;
+
+}
+.select{
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  border: 1px solid #999;
+  outline: none;
+}
+/* .radio-label{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  
+} */
+
+.p{
+  display: block;
+  /* padding: 10px;
+  margin: 10px 0; */
+  width: 100%;
+  text-align: left;
+
+}
+
+
+
+#Comments{
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  /* margin: 10px 0; */
+  width: 400px;
+  border: 1px solid #999;
+  outline: none;
+
+}
+button{
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.submit-background{
+  background-color: #1c8adb;
+}
+.cancel-background{
+  background-color: hsla(347, 63%, 59%, 0.96);
+}
+a{
+  text-decoration: none;
+}
+hr{
+  margin: 20px 10px;
+}
+.or{
+  background-color: #fff;
+  width: 30px;
+  margin: -33px auto 10px;
+}

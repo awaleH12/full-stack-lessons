@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Sign up page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav"><p><h1>Student Sign up page</h1></p></nav>
+  <div class="sign-up-form">
+    <h2>Student Registration Form</h1>
+    <form action="#">
+      <label class="top-labels" for="name">Name:</label>
+      <input class="input-box" id="name" type="text" name="name" placeholder="Your name" autofocus autocomplete="off"><br>
+      <label class="top-labels" for="birthDate">Birth Date:</label>
+      <input class="input-box" id="birthDate" type="date" name="birthDate"><br>
+      <label class="top-labels" for="fathersName">Father's Name:</label>
+      <input class="input-box" id="fathersName" type="text" name="fathersName" placeholder="Father's Name" autocomplete="off" autofocus><br>
+      <label class="top-labels" for="phone">Phone:</label>
+      <input class="input-box" id="phone" type="tel" name="phone" placeholder="Your Phone number" autocomplete="off" autofocus><br>
+      <label class="top-labels" for="email">Email:</label>
+      <input class="input-box" id="email" type="email" name="email" placeholder="Your Email" autocomplete="off" autofocus><br>
+      <label class="top-labels" for="address">Address:</label>
+      <input class="input-box" id="address" type="text" name="address" placeholder="Your Address" autocomplete="off" autofocus><br>
+      <hr>
+      <label class="gender" for="gender">Sex:</label>
+      <select class="select" name="gender" id="gender">
+        <option  selected disabled>Select</option >
+        <option  value="Male">Male</option >
+        <option  value="Female">Female</option ><br>
+      </select><br>
+      <p class="p">Please choose your foculty:</p>
+      <input class="radio-input" type="radio" id="law" name="ir" value="foculty of Law">
+      <label class="radio-label" for="law">Foculty of law</label><br>
+      <input class="radio-input" type="radio" id="health" name="health" value="foculty of Health Science">
+      <label class="radio-label" for="health">Foculty of Health Science</label><br>
+      <input class="radio-input" type="radio" id="agri"d name="agri" value="foculty of Agriculture">
+      <label  class="radio-label" for="agri">Foculty of Agriculture</label><br>
+      <p class="p">Hobbies:</p>
+      <input class="radio-input" type="checkbox" id="books" name="books" value="I like reading books">
+      <label class="radio-label" for="books"> I like reading books</label><br>
+      <input class="radio-input" type="checkbox" id="sports" name="sports" value="sports">
+      <label class="radio-label" for="sports"> I like playing football</label><br>
+      <input class="radio-input" type="checkbox" id="movies" name="movies" value="movies">
+      <label class="radio-label" for="movies"> I like watching horror movies</label><br><br>
+      
+      <p class="p"><label for="Comments">Comments:</label></p>
+      <textarea id="Comments" name="Comments" rows="4" cols="40">Please leave your comments in this text box.</textarea>
+      <br>
+      <p><span><input type="checkbox">I agree to the terms of the sign up</span></p>
+      <br>
+      <button class="submit-background" type="submit" value="Submit">Submit</button>
+      <hr>
+      <p class="or">OR</p>
+      <button class="cancel-background" type="reset" value="Cancel">Cancel</button><br>
+      <p>I do have an account <a href="#">Sign In</a></p>
+    </form>
+  </div>
+  
+</body>
+</html>
